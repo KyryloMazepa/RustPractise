@@ -1,7 +1,7 @@
-const SIZE: usize = 5; // Задайте розмір ромба
+const SIZE: usize = 5; // Розмір ромба
 
 fn main() {
-    // Зберігаємо весь ромб у змінну
+    
     let mut diamond = String::new();
 
     // Верхня частина ромба
@@ -18,6 +18,6 @@ fn main() {
         diamond.push_str(&format!("{}{}\n", spaces, stars));
     }
 
-    // Виводимо весь ромб одним разом
+    
     print!("{}", diamond);
 }
